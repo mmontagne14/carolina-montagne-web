@@ -1,0 +1,86 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 25/07/2020 6:17 PM
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.36
+WORDPRESS:	5.4.2
+PHP INFO:	7.4.7 | SAPI: apache2handler
+SERVER:		Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.7 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 8MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20200725_carolinamontagne_8ca6d79146a282bc4474_20200725181629_database.sql
+SQL FILE SIZE: 3.18MB (3330855)
+SQL FILE TIME: 2020-07-25 18:17:08
+SQL RUNTIME: 2.27 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/xampp/htdocs/CarolinaMontagne
+ARCHIVE FILE: 20200725_carolinamontagne_8ca6d79146a282bc4474_20200725181629_archive.zip
+FILTERS: *ON*
+DIRS:
+	C:/xampp/htdocs/CarolinaMontagne
+	C:/xampp/htdocs/CarolinaMontagne/wp-content/cache
+	C:/xampp/htdocs/CarolinaMontagne/wp-content/uploads
+FILES:
+	C:/xampp/htdocs/CarolinaMontagne/file.ext
+EXTS:  avi;mov;mp4;mpeg;mpg;swf;wmv;aac;m3u;mp3;mpa;wav;wma;zip;rar;tar;gz;bz2;7z;
+----------------------------------------
+COMPRESSING
+SIZE:	0B
+STATS:	Dirs 0 | Files 0
+SQL ADDED: 20200725_carolinamontagne_8ca6d79146a282bc4474_20200725181629_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1
+    [filename] => C:\xampp\htdocs\CarolinaMontagne\wp-content\backups-dup-lite\tmp\20200725_carolinamontagne_8ca6d79146a282bc4474_20200725181629_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 0
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 266.45KB
+ARCHIVE RUNTIME: 0.33 sec.
+MEMORY STACK: 8MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip C:/xampp/htdocs/CarolinaMontagne/wp-content/backups-dup-lite/tmp/20200725_carolinamontagne_8ca6d79146a282bc4474_20200725181629_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 3.18MB
+INSTALLER FILE: 61.32KB
+ARCHIVE FILE: 1.72MB 
+EXPECTED FILE/DIRECTORY COUNT: 0
+ACTUAL FILE/DIRECTORY COUNT: 0
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 4.22 sec.
+PEAK PHP MEMORY USED: 12MB
+DONE PROCESSING => 20200725_carolinamontagne 25/07/2020 6:17 PM
+
