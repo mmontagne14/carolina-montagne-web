@@ -17,9 +17,7 @@ define( 'CHILD_THEME_ASTRA_REALSTATE_VERSION', '1.0.0' );
  * Enqueue styles
  */
 function child_enqueue_styles() {
-
 	wp_enqueue_style( 'astra-realstate-theme-css', get_stylesheet_directory_uri() . '/style.css', array('astra-theme-css'), CHILD_THEME_ASTRA_REALSTATE_VERSION, 'all' );
-
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
@@ -36,14 +34,15 @@ function ls_scripts_styles() {
 
 add_action( 'wp_enqueue_scripts', 'ls_scripts_styles', 20 );
 
+add_filter( 'astra_single_post_navigation_enabled', '__return_false' );
+
+
 function mySort($a, $b) {
     if($a['menu_order'] == $b['menu_order']) {
         return 0;
     }
     return ($a['menu_order'] < $b['menu_order']) ? -1 : 1;
 }
-
-
 
 
 function get_listados_data($post_Id = integer, $post_type = string){
@@ -54,10 +53,10 @@ function get_listados_data($post_Id = integer, $post_type = string){
 				$customFields = get_field_objects();
 				usort($customFields,"mySort");
 
-
 				if( count($images) )
 				{ ?> 
 					<div class="demo">
+					</br></br>
 					<ul id="light-slider" class="image-gallery"> <?php
 		        	foreach($images as $image)
 	        		{
@@ -110,7 +109,19 @@ function get_listados_data($post_Id = integer, $post_type = string){
 										}
 									}else{
 								if(array_key_exists('prepend',$customField) && $customField['prepend']) {echo $customField['prepend'];}
-								echo $customField['value'];
+								if($customField['label'] == 'Estado'){
+									if($customField['value'] == 'Disponible'){ ?>
+										<div class='inmueble-disponible'>  <?php
+									}else{ ?>
+										<div class='inmueble-nodisponible'> <?php
+									}
+									
+									echo $customField['value'];  ?>
+									</div>
+									<?php
+								}else{
+									echo $customField['value'];
+									}
 								if(array_key_exists('append',$customField) && $customField['append']) {echo $customField['append'];}
 							}
 							}else{

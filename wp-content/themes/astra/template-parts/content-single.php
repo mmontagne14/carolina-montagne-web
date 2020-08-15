@@ -7,7 +7,7 @@
  * @package Astra
  * @since 1.0.0
  */
-	
+
 ?>
 
 <?php astra_entry_before(); ?>
@@ -23,9 +23,9 @@
 		);
 		?>
 >
-		
+
 	<?php astra_entry_top(); ?>
-	
+
 	<?php astra_entry_content_single(); ?>
 
 	<?php astra_entry_bottom(); ?>
