@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Akismet Anti-Spam - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-11 11:44:45+0000\n"
+"PO-Revision-Date: 2020-08-12 00:03:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -149,7 +149,7 @@ msgstr "En esta página podrás actualizar tus ajustes de Akismet y ver las esta
 
 #. Description of the plugin
 msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key."
-msgstr "Utilizado por millones, Akismet es, posiblemente, la mejor manera del mundo de  <strong>proteger tu blog del spam</strong>. Mantiene tu blog protegido incluso cuando duermes. Para comenzar: activa el plugin Akismet y ve a la página de ajustes de Akismet para establecer tu clave de API."
+msgstr "Usado por millones, Akismet es, posiblemente, la mejor manera del mundo de  <strong>proteger tu blog del spam</strong>. Mantiene tu blog protegido hasta cuando dormís. Para comenzar: activá el plugin Akismet y ve a la página de ajustes de Akismet para establecer tu clave de API."
 
 #. Plugin Name of the plugin
 #: class.akismet-admin.php:112 class.akismet-admin.php:115
@@ -208,7 +208,7 @@ msgstr "Utilizado por millones de personas, Akismet es posiblemente la mejor man
 
 #: class.akismet-admin.php:1188
 msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Your site is fully configured and being protected, even while you sleep."
-msgstr "Utilizado por millones, Akismet es, posiblemente, la mejor manera del mundo de <strong>proteger tu blog del spam</strong>. Mantiene tu blog protegido incluso cuando duermes."
+msgstr "Usado por millones, Akismet es, posiblemente, la mejor manera del mundo de  <strong>proteger tu blog del spam</strong>. Mantiene tu blog protegido hasta cuando dormís."
 
 #: class.akismet-admin.php:1080
 msgid "%s comment was caught as spam."
