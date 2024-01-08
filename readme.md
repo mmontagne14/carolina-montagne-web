@@ -1,15 +1,15 @@
-# Carolina Montagné
+# Carolina Montagné Inmobiliaria  🏠
 
 Este es el sitio web de una inmobiliaria de la ciudad de Córdoba, Argentina. En él se puede apreciar un diseño sobrio, claro y completamente responsivo el cual permite una cómoda visualización en cualquier dispositivo.
 
-## Tecnologías utilizadas
+## Tecnologías utilizadas 🧮
 Este proyecto está realizado en Wordpress, utiliza como lenguaje PHP para el Backend y Javascript en el Frontend, plugins como Elementor como maquetador, 
 ACF Photo Gallery Field y FrontEnd Gallery Slider para las imágenes, Custom Post Type UI para taxonomies, Twitter Bootstrap CSS para el diseño responsivo, WP Mail SMTP para envío de correo, Yoast SEO, entre otros.
 
-## Hosting
+## Hosting 💻
 Acutalmente la página está alojada en Hostinger.
 
-## Secciones
+## Secciones 
 
 Explora las diferentes secciones, en cada una de ellas se encuentra siempre un ícono para comunicarse a través de Whatsapp, permitiendo así al usuario una fácil y rápida comunicación con la empresa.
 
